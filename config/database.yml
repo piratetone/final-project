@@ -23,3 +23,13 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+
+  development:
+  adapter: mysql2
+  encoding: utf8
+  database: reservester
+  username: root
+  password: IGrVbrEo
+  host: 127.0.0.1
+  port: 3306
+
